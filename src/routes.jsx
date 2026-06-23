@@ -4,6 +4,7 @@ import HelloWorld from './HelloWorld.tsx';
 import BugDashboardByComponent from './bug-dash-by-component.tsx';
 import BugDashboardDeepDive from './bug-dash-deep-dive.jsx';
 import BugDashboardVersionHeatMap from './bug-dash-version-heat-map.jsx';
+import BugDashboardVersionHeatMapJanToMay from './hit-map-by-jan-to-May.jsx';
 
 
 export const routes = [
@@ -13,4 +14,5 @@ export const routes = [
   { path: '/bug-component', label: 'Bug by Component', element: <BugDashboardByComponent /> },
   { path: '/bug-deep-dive', label: 'Bug Deep Dive', element: <BugDashboardDeepDive /> },
   { path: '/version-heat-map', label: 'Version Heat Map', element: <BugDashboardVersionHeatMap /> },
+  { path: '/version-heat-map-jan-to-may', label: 'Version Heat Map Jan to May', element: <BugDashboardVersionHeatMapJanToMay /> },
 ];
