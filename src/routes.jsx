@@ -16,5 +16,5 @@ export const routes = [
   { path: '/bug-deep-dive', label: 'Bug Deep Dive', element: <BugDashboardDeepDive /> },
   { path: '/version-heat-map', label: 'Version Heat Map', element: <BugDashboardVersionHeatMap /> },
   { path: '/version-heat-map-jan-to-may', label: 'Version Heat Map Jan to May', element: <BugDashboardVersionHeatMapJanToMay /> },
-  { path: '/alert-engine', label: 'Alert Engine', element: <AlertEngine /> },
+  { path: '/alert-engine', label: 'Pre Merge simulation', element: <AlertEngine /> },
 ];

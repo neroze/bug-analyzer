@@ -355,7 +355,8 @@ export default function PremergerSimulation() {
   const fired = firedEvents.filter((e) => e <= currentEvent).length;
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 p-6 font-sans">
+    <div className="min-h-screen bg-slate-900 text-slate-100 font-sans">
+      <div className="w-[80%] mx-auto py-8">
       {/* Header */}
       <div className="border-b border-slate-700 pb-5 mb-6">
         <div className="flex items-center gap-3 mb-1">
@@ -523,6 +524,7 @@ export default function PremergerSimulation() {
       <div className="mt-8 pt-4 border-t border-slate-800 text-center text-xs text-slate-700 font-mono">
         LogPoint Alert Engine — Premerger Producer Loop Simulation · Based on{" "}
         SimpleAggProducerThread.java, livesearch.py, alert.py, analyzer.py · June 2026
+      </div>
       </div>
     </div>
   );
